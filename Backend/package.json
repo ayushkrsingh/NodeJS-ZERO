@@ -1,0 +1,23 @@
+{
+  "name": "backend-zero",
+  "version": "1.0.0",
+  "description": "Intro to Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushkrsingh/NodeJS-ZERO.git"
+  },
+  "author": "AyushKS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushkrsingh/NodeJS-ZERO/issues"
+  },
+  "homepage": "https://github.com/ayushkrsingh/NodeJS-ZERO#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
