@@ -2,10 +2,11 @@
   "name": "backend-zero",
   "version": "1.0.0",
   "description": "Intro to Backend",
-  "main": "index.js",
+  "main": "Backend/src/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/ayushkrsingh/NodeJS-ZERO#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.8.1",
+    "nodemon": "^3.1.14"
   }
 }
